@@ -12,8 +12,9 @@ and listening for send-sms event from API.
 ## Features and Work-in-progress
 - Send SMS
 - Rate limiting
-- Round Robin technique for multi devices. (Avoid phone number getting blocked by 
-operator for spamming)
+- Dual SIM devices
+- Round Robin technique for multi devices or dual SIM devices. _(To avoid phone 
+number getting blocked by operator for spamming)_
 - Authentication
 
 ## Running Application
