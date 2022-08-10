@@ -1,16 +1,18 @@
-# asgate
+# ASGate - Client
 
-A new Flutter project.
+ASGate is an application for turning your android phones into SMS gateway. This 
+repository is only for client android which will be listening to API.
 
-## Getting Started
+## How It Works
 
-This project is a starting point for a Flutter application.
+First, API server will be running for accepting REST API methods that will be used 
+to interact with user. Then the client connect to the API server using WebSocket 
+and listening for send-sms event from API.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running Application
+clone this repo and asgate server repo. To run client:
+```bash
+flutter pub get
+flutter run android
+```
+or download already build apk here:
